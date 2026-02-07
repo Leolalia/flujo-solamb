@@ -1,9 +1,12 @@
 ﻿{
-    "generated_at":  "2026-02-07T13:12:03",
+    "generated_at":  "2026-02-07T13:22:51",
     "repo":  "https://github.com/Leolalia/flujo-solamb",
     "branch":  "main",
-    "head":  "249f2396494329322468aae39f4f577767dd3d9e",
-    "head_message":  "docs/tools: auditoria y tooling (ignorar token)",
+    "head":  "7219754b189f0196bd4582c7cb2b93b553e3d010",
+    "head_message":  [
+                         "docs: add handoff master + state snapshot for fast new-chat continuity",
+                         ""
+                     ],
     "root_expected":  [
                           "admin-ui",
                           "solamb-edge",
@@ -12,7 +15,7 @@
                           "docs",
                           "tools"
                       ],
-    "phase_active":  "FASE 6 — Admin UI local (Electron + React) para pruebas de campo",
+    "phase_active":  "FASE 6 - Admin UI local (Electron + React) para pruebas de campo",
     "edge_local_url":  "http://localhost:7789",
     "admin_local_url":  "http://localhost:5173",
     "field_assumptions":  {

@@ -59,10 +59,14 @@ central-receiver/src/types.ts
 central-receiver/tests/ingest.test.ts
 central-receiver/tests/query.test.ts
 central-receiver/tsconfig.json
+docs/HANDOFF_MASTER.md
 docs/_audit/hashes.sha256
 docs/_audit/meta.txt
 docs/_audit/risk-signals.txt
 docs/_audit/tree.txt
+docs/_handoff/ENDPOINTS_UI.txt
+docs/_handoff/STATE.json
+docs/_handoff/TREE.txt
 network-sim-proxy/adapters/anpr/README.md
 network-sim-proxy/adapters/anpr/index.ts
 network-sim-proxy/adapters/barrier/README.md
@@ -231,3 +235,4 @@ solamb-edge/trace-snapshot-call.js
 solamb-edge/tsconfig.json
 solamb-edge/verify.ts
 tools/audit-scan.ps1
+tools/handoff.ps1
