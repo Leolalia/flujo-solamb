@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1770362918118",
+    "type": "BARRIER_OPEN",
+    "source": "SIMULATION",
+    "receivedAt": 1770362918118
+  },
+  {
+    "id": "1770362917486",
+    "type": "BARRIER_CLOSE",
+    "source": "SIMULATION",
+    "receivedAt": 1770362917486
+  },
+  {
+    "id": "1770362916837",
+    "type": "ANPR",
+    "source": "SIMULATION",
+    "receivedAt": 1770362916837
+  },
+  {
+    "id": "1770362495654",
+    "type": "LIGHT_RED",
+    "source": "SIMULATION",
+    "receivedAt": 1770362495654
+  },
+  {
+    "id": "1770362494930",
+    "type": "LIGHT_GREEN",
+    "source": "SIMULATION",
+    "receivedAt": 1770362494930
+  },
+  {
+    "id": "1770362465752",
+    "type": "BARRIER_CLOSE",
+    "source": "SIMULATION",
+    "receivedAt": 1770362465752
+  },
+  {
+    "id": "1770362465220",
+    "type": "LIGHT_RED",
+    "source": "SIMULATION",
+    "receivedAt": 1770362465220
+  },
+  {
+    "id": "1770362464307",
+    "type": "LIGHT_GREEN",
+    "source": "SIMULATION",
+    "receivedAt": 1770362464307
+  }
+]

@@ -1,0 +1,12 @@
+﻿{
+  "name": "solamb-edge",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "sim": "node dist/cli/sim.js",
+    "http": "node dist/server/http.js",
+    "outbox": "node dist/cli/outbox.js",
+    "worker": "node dist/cli/worker.js"
+  }
+}

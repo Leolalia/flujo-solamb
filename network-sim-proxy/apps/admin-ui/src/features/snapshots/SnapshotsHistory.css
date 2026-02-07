@@ -1,0 +1,140 @@
+.snapshots-container {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 24px;
+  height: calc(100vh - 100px);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.snapshots-sidebar {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #eee;
+  padding-right: 16px;
+}
+
+.snapshots-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.snapshots-header h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.snapshots-refresh-btn {
+  padding: 4px 8px;
+  cursor: pointer;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: all 0.2s;
+}
+
+.snapshots-refresh-btn:hover:not(:disabled) {
+  background: #f5f5f5;
+  border-color: #ccc;
+}
+
+.snapshots-refresh-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.snapshots-error {
+  color: #d32f2f;
+  background-color: #ffebee;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  margin-bottom: 8px;
+}
+
+.snapshots-list {
+  flex: 1;
+  overflow-y: auto;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  background: white;
+}
+
+.snapshots-empty {
+  padding: 24px;
+  text-align: center;
+  color: #888;
+  font-style: italic;
+}
+
+.snapshot-item {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #f0f0f0;
+  background: transparent;
+  color: #333;
+  padding: 10px 12px;
+  text-align: left;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.15s, color 0.15s;
+  outline: none;
+}
+
+.snapshot-item:hover {
+  background-color: #f9f9f9;
+}
+
+.snapshot-item.selected {
+  background-color: #e6f7ff;
+  color: #1890ff;
+  border-right: 3px solid #1890ff;
+}
+
+.snapshot-item:focus-visible {
+  background-color: #e6f7ff;
+  box-shadow: inset 0 0 0 2px #1890ff;
+}
+
+.snapshots-main {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding-left: 8px;
+}
+
+.snapshots-content-title {
+  margin: 0 0 12px 0;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #444;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.snapshots-viewer {
+  flex: 1;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 16px;
+  overflow: auto;
+  background-color: #fafafa;
+  font-family: "Consolas", "Monaco", "Courier New", monospace;
+  font-size: 0.85rem;
+  line-height: 1.4;
+  color: #24292e;
+}
+
+.snapshots-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #999;
+  font-style: italic;
+}

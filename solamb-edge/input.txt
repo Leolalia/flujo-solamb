@@ -1,0 +1,4 @@
+sim trigger loop_a
+sim scan A-1234
+sim scan B-5678
+exit

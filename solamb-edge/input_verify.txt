@@ -1,0 +1,8 @@
+sim trigger loop_a
+sim scan A-1234
+sim weigh start
+sim scale auto 15000
+sim replicate
+sim replicate fail
+sim replicate status
+exit
