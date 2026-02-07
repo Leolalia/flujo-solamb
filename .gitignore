@@ -8,3 +8,7 @@ logs/
 .env.*
 backups/
 .DS_Store
+
+# secrets
+/tokenGIT.txt
+
