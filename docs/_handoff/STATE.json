@@ -1,0 +1,27 @@
+﻿{
+    "generated_at":  "2026-02-07T13:12:03",
+    "repo":  "https://github.com/Leolalia/flujo-solamb",
+    "branch":  "main",
+    "head":  "249f2396494329322468aae39f4f577767dd3d9e",
+    "head_message":  "docs/tools: auditoria y tooling (ignorar token)",
+    "root_expected":  [
+                          "admin-ui",
+                          "solamb-edge",
+                          "network-sim-proxy",
+                          "central-receiver",
+                          "docs",
+                          "tools"
+                      ],
+    "phase_active":  "FASE 6 — Admin UI local (Electron + React) para pruebas de campo",
+    "edge_local_url":  "http://localhost:7789",
+    "admin_local_url":  "http://localhost:5173",
+    "field_assumptions":  {
+                              "single_pc":  true,
+                              "single_operator":  true,
+                              "modular_device_tests":  true,
+                              "anpr_cameras":  2,
+                              "ocr_camera":  1,
+                              "barrier_separate_from_scale":  true,
+                              "must_support_manual_fallback":  true
+                          }
+}

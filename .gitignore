@@ -12,3 +12,7 @@ backups/
 # secrets
 /tokenGIT.txt
 
+
+# local bundles
+*.zip
+
